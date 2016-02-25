@@ -60,7 +60,7 @@ body {
 .lightCharacters {
   position      : fixed;
   bottom        : 160px;
-  right: 50px;
+  right         : 50px;
   width         : 100%;
   text-align    : center;
   vertical-align: center;

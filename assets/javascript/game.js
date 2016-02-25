@@ -26,7 +26,7 @@ $(document).ready(function(){
     $("#lightSideIcon").hover(function(){
       yoda.play();    
       $("h1").hide();
-      // document.body.style.backgroundImage = "url(assets/images/light_side/light_side.gif)";
+      document.body.style.backgroundImage = "url(assets/images/light_side/light_side.gif)";
     });
 
     //Dark Side Icon Hover
