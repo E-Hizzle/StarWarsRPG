@@ -144,6 +144,50 @@ body {
   -webkit-filter: drop-shadow(8px 8px 10px blue);
 }
 
+#healthVader {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  color: yellow;
+}
+
+#healthMaul {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  color: yellow;
+}
+
+#healthLuke {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  color: yellow;
+}
+
+#healthObi {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  color: yellow;
+}
+
+#healthComputer {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  color: yellow;
+}
 
 @keyframes loading {
   from {color: black;}
