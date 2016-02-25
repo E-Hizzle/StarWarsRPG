@@ -20,7 +20,7 @@ $(document).ready(function(){
   $(".healthMaul").hide();
   $(".healthObi").hide();
   $(".healthLuke").hide();
-
+  $("h3").hide();
   saber.play();
   darkMusic.play();
 //Click function
@@ -88,6 +88,7 @@ $(document).ready(function(){
       $(".playerLeft").show();
       document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
       document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
+      $("h3").show();
       });
 
     $("#maulIcon").click(function(){
@@ -98,6 +99,7 @@ $(document).ready(function(){
       $(".playerRight").show();
       document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
       document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
+      $("h3").show();
     });
 
     $("#obiIcon").click(function(){
@@ -108,7 +110,7 @@ $(document).ready(function(){
       $(".playerRight").show();
       document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
       document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
-
+      $("h3").show();
     });
 
     $("#lukeIcon").click(function(){
@@ -122,6 +124,6 @@ $(document).ready(function(){
       };
       document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
       document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
+      $("h3").show();
     });
-    
 });

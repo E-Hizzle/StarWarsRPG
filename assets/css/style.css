@@ -22,6 +22,20 @@ h2 {
   animation-duration: 4s;
 }
 
+h3 {
+  text-align : center;
+  position   : fixed;
+  font-family: 'Electrolize', sans-serif;
+  color      : yellow;
+  bottom     : 20px;
+  width      : 100%;
+  font-size: 40px;
+  border: 15px;
+  border-color: gray;
+  border-style: solid;
+  background-color: gray;
+}
+
 body {
   background-image       : url("../images/battle_intro/battle_intro.jpg");
   -webkit-background-size: cover;
@@ -159,6 +173,11 @@ body {
   position: fixed;
   top: 100px;
   color: yellow;
+}
+
+.duelButton {
+  width: 100%;
+  text-align: center;
 }
 
 @keyframes loading {
