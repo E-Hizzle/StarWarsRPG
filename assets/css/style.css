@@ -31,6 +31,7 @@ body {
   background-attachment  : fixed;
   background-color       : black;
   color                  : white;
+  overflow: hidden;
 }
 
 .icons {
@@ -144,48 +145,19 @@ body {
   -webkit-filter: drop-shadow(8px 8px 10px blue);
 }
 
-#healthVader {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 18px;
-  position: absolute;
-  top: 100px;
-  height: 100%;
-  color: yellow;
-}
-
-#healthMaul {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 18px;
-  position: absolute;
-  top: 100px;
-  height: 100%;
-  color: yellow;
-}
-
-#healthLuke {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 18px;
-  position: absolute;
-  top: 100px;
-  height: 100%;
-  color: yellow;
-}
-
-#healthObi {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 18px;
-  position: absolute;
-  top: 100px;
-  height: 100%;
-  color: yellow;
-}
-
 #healthComputer {
   font-family   : 'Electrolize', sans-serif;
-  font-size: 18px;
-  position: absolute;
+  font-size: 16px;
+  position: fixed;
   top: 100px;
-  height: 100%;
+  color: yellow;
+}
+
+#healthPlayer {
+  font-family   : 'Electrolize', sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 100px;
   color: yellow;
 }
 

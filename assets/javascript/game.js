@@ -9,10 +9,7 @@ var maul        = new Audio("assets/music/sabersounds/double bladed twirl.wav")
 var luke        = new Audio("assets/music/voices/luke.wav");
 var obi         = new Audio("assets/music/sabersounds/fx4.wav");
 var vader2      = new Audio("assets/music/voices/haveyou.wav");
-var healthVader = 100;
-var healthMaul = 100;
-var healthLuke = 100;
-var healthObi = 100;
+var healthPlayer = 100;
 var healthComputer = 100;
 
 $(document).ready(function(){
@@ -88,9 +85,9 @@ $(document).ready(function(){
       $("#maulIcon").hide();
       $(".lightCharacters").show();
       $("#obiIcon").hide();
-      $(".healthVader").show();
-      document.querySelector("#healthLuke").innerHTML = "Health: " + healthLuke;
-      document.querySelector("#healthVader").innerHTML = "Health: " + healthVader;
+      $(".playerLeft").show();
+      document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
+      document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
       });
 
     $("#maulIcon").click(function(){
@@ -98,9 +95,9 @@ $(document).ready(function(){
       $("#vaderIcon").hide();
       $(".lightCharacters").show();
       $("#lukeIcon").hide();
-      $(".healthMaul").show();
-      document.querySelector("#healthObi").innerHTML = "Health: " + healthObi;
-      document.querySelector("#healthMaul").innerHTML = "Health: " + healthMaul;
+      $(".playerRight").show();
+      document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
+      document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
     });
 
     $("#obiIcon").click(function(){
@@ -108,9 +105,10 @@ $(document).ready(function(){
       $("#lukeIcon").hide();
       $(".darkCharacters").show();
       $("#vaderIcon").hide();
-      $(".healthObi").show();
-      document.querySelector("#healthMaul").innerHTML = "Health: " + healthMaul;
-      document.querySelector("#healthObi").innerHTML = "Health: " + healthObi;
+      $(".playerRight").show();
+      document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
+      document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
+
     });
 
     $("#lukeIcon").click(function(){
@@ -118,12 +116,12 @@ $(document).ready(function(){
       $("#obiIcon").hide();
       $(".darkCharacters").show();
       $("#maulIcon").hide();
-      $(".healthLuke").show();
+      $(".playerLeft").show();
       luke.onended = function(){
         vader2.play();
       };
-      document.querySelector("#healthLuke").innerHTML = "Health: " + healthLuke;
-      document.querySelector("#healthVader").innerHTML = "Health: " + healthVader;
+      document.querySelector("#healthComputer").innerHTML = "Health: " + healthComputer;
+      document.querySelector("#healthPlayer").innerHTML = "Health: " + healthPlayer;
     });
     
 });
