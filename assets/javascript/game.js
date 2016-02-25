@@ -33,8 +33,16 @@ $(document).ready(function(){
       $("h1").hide();
       document.body.style.backgroundImage = "url(assets/images/dark_side/dark_side.gif)";  
     });
-  
+
+
   });
 //Click function
-
+    //On Click Emperor
+    $("#darkSideIcon").click(function(){
+      $("#lightSideIcon").hide();
+    });
+    //On Click Yoda
+    $("#lightSideIcon").click(function(){
+      $("darkSideIcon").hide();
+    });
 });
