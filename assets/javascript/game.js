@@ -67,6 +67,8 @@ $(document).ready(function(){
     $("#vaderIcon").click(function(){
       vader.play();
       $("#maulIcon").hide();
+      $("lightCharacters").show();
+        $("lukeIcon").hide(;)
     });
 
     $("#maulIcon").click(function(){
