@@ -67,13 +67,15 @@ $(document).ready(function(){
     $("#vaderIcon").click(function(){
       vader.play();
       $("#maulIcon").hide();
-      $("lightCharacters").show();
-        $("lukeIcon").hide(;)
+      $(".lightCharacters").show();
+      $("#obiIcon").hide();
     });
 
     $("#maulIcon").click(function(){
       maul.play();
       $("#vaderIcon").hide();
+      $(".lightCharacters").show();
+      $("#lukeIcon").hide();
     });
 
     $("#obiIcon").hover(function(){
@@ -87,11 +89,15 @@ $(document).ready(function(){
     $("#obiIcon").click(function(){
       obi.play();
       $("#lukeIcon").hide();
+      $(".darkCharacters").show();
+      $("#vaderIcon").hide();
     });
 
     $("#lukeIcon").click(function(){
       luke.play();
       $("#obiIcon").hide();
+      $(".darkCharacters").show();
+      $("#maulIcon").hide();
     });
     
 });
