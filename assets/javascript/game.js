@@ -7,6 +7,7 @@ var emperor   = new Audio("assets/music/voices/emperor.mp3");
 $(document).ready(function(){
   $(".icons").hide();
   $(".darkCharacters").hide();
+  $(".lightCharacters").hide();
   saber.play();
   darkMusic.play();
 //Click function
@@ -25,7 +26,7 @@ $(document).ready(function(){
     $("#lightSideIcon").hover(function(){
       yoda.play();    
       $("h1").hide();
-      document.body.style.backgroundImage = "url(assets/images/light_side/light_side.gif)";
+      // document.body.style.backgroundImage = "url(assets/images/light_side/light_side.gif)";
     });
 
     //Dark Side Icon Hover
@@ -40,12 +41,30 @@ $(document).ready(function(){
 //Click function
     //On Click Emperor
     $("#darkSideIcon").click(function(){
-      $("#lightSideIcon").hide();
       $("#darkSideIcon").hide();
+      $("#lightSideIcon").hide();
       $(".darkCharacters").show();
     });
     //On Click Yoda
     $("#lightSideIcon").click(function(){
+      $("#lightSideIcon").hide();
       $("#darkSideIcon").hide();
+      $(".lightCharacters").show();
+    });
+
+    $("#maulIcon").hover(function(){
+      document.body.style.backgroundImage = "url(assets/images/characterBackground/dark.jpg)";  
+    });
+
+    $("#vaderIcon").hover(function(){
+      document.body.style.backgroundImage = "url(assets/images/characterBackground/dark.jpg)";  
+    });
+
+    $("#obiIcon").hover(function(){
+      document.body.style.backgroundImage = "url(assets/images/characterBackground/light.jpg)";  
+    });
+
+    $("#lukeIcon").hover(function(){
+      document.body.style.backgroundImage = "url(assets/images/characterBackground/light.jpg)";  
     });
 });

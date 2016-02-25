@@ -47,7 +47,20 @@ body {
 
 .darkCharacters {
   position      : fixed;
-  bottom        : 190px;
+  bottom        : 160px;
+  width         : 100%;
+  text-align    : center;
+  vertical-align: center;
+  font-size     : 60px;
+  color         : yellow;
+  font-family   : 'Electrolize', sans-serif;
+  vertical-align: middle;
+}
+
+.lightCharacters {
+  position      : fixed;
+  bottom        : 160px;
+  right: 50px;
   width         : 100%;
   text-align    : center;
   vertical-align: center;
@@ -108,6 +121,29 @@ body {
   height      : 500px;
   -webkit-filter: drop-shadow(8px 8px 10px red);
 }
+
+#lukeIcon {
+  width       : auto;
+  height      : 500px;
+}
+
+#obiIcon {
+  width       : auto;
+  height      : 500px;
+}
+
+#lukeIcon:hover {
+  width       : auto;
+  height      : 500px;
+  -webkit-filter: drop-shadow(8px 8px 10px green);
+}
+
+#obiIcon:hover {
+  width       : auto;
+  height      : 500px;
+  -webkit-filter: drop-shadow(8px 8px 10px blue);
+}
+
 
 @keyframes loading {
   from {color: black;}
