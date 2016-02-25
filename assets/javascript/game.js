@@ -43,6 +43,6 @@ $(document).ready(function(){
     });
     //On Click Yoda
     $("#lightSideIcon").click(function(){
-      $("darkSideIcon").hide();
+      $("#darkSideIcon").hide();
     });
 });
