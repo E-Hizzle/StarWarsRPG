@@ -6,6 +6,7 @@ var yoda      = new Audio("http://www.yodajeff.com/multimedia/sounds/episode5/us
 var emperor   = new Audio("assets/music/voices/emperor.mp3");
 $(document).ready(function(){
   $(".icons").hide();
+  $(".darkCharacters").hide();
   saber.play();
   darkMusic.play();
 //Click function
@@ -40,6 +41,8 @@ $(document).ready(function(){
     //On Click Emperor
     $("#darkSideIcon").click(function(){
       $("#lightSideIcon").hide();
+      $("#darkSideIcon").hide();
+      $(".darkCharacters").show();
     });
     //On Click Yoda
     $("#lightSideIcon").click(function(){
