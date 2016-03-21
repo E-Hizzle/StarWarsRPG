@@ -19,7 +19,8 @@ h2 {
   bottom            : 25px;
   width             :100%;
   animation-name    : loading;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 h3 {
@@ -31,9 +32,37 @@ h3 {
   width      : 100%;
   font-size: 40px;
   border: 15px;
-  border-color: gray;
+  border-color: black;
   border-style: solid;
-  background-color: gray;
+  background-color: black;
+}
+
+h4 {
+  text-align      : center;
+  position        : fixed;
+  font-family     : 'Electrolize', sans-serif;
+  color           : yellow;
+  top             : 0px;
+  width           : 100%;
+  font-size       : 40px;
+  border          : 15px;
+  border-color    : black;
+  border-style    : solid;
+  background-color: black;
+}
+
+h5 {
+  text-align      : center;
+  position        : fixed;
+  font-family     : 'Electrolize', sans-serif;
+  color           : yellow;
+  top             : 0px;
+  width           : 100%;
+  font-size       : 40px;
+  border          : 15px;
+  border-color    : black;
+  border-style    : solid;
+  background-color: black;
 }
 
 body {
@@ -160,24 +189,19 @@ body {
 }
 
 #healthComputer {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 16px;
-  position: fixed;
-  top: 100px;
-  color: yellow;
+  font-family: 'Electrolize', sans-serif;
+  font-size  : 16px;
+  position   : fixed;
+  top        : 100px;
+  color      : yellow;
 }
 
 #healthPlayer {
-  font-family   : 'Electrolize', sans-serif;
-  font-size: 16px;
-  position: fixed;
-  top: 100px;
-  color: yellow;
-}
-
-.duelButton {
-  width: 100%;
-  text-align: center;
+  font-family: 'Electrolize', sans-serif;
+  font-size  : 16px;
+  position   : fixed;
+  top        : 100px;
+  color      : yellow;
 }
 
 @keyframes loading {
